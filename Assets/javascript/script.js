@@ -84,7 +84,7 @@ new Chart("myChart", {
               innerHtml += '</thead><tbody>';
 
               bodyLines.forEach(function(body, i) {
-                  console.log(body[i])
+                  //console.log(body[i])
                   const colors = tooltipModel.labelColors[i];
                             let style = 'background:' + colors.backgroundColor;
                             style += '; border-color:' + colors.borderColor;
@@ -103,7 +103,7 @@ new Chart("myChart", {
           const {offsetLeft: positionX, offsetTop: positionY} = context.chart.canvas;
 
           const bodyFont = Chart.helpers.toFont(tooltipModel.options.bodyFont);
-          console.log(tooltipModel);
+          //console.log(tooltipModel);
           // Display, position, and set styles for font
           tooltipEl.style.opacity = 1;
           tooltipEl.style.width = '48px';
