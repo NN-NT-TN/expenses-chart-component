@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="Assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="Assets/styles/styles.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  
+</head>
+<body>
+<main>
+  <div>
+    <div class="balance-container">
+      <div class="balance-amount-container">
+        <div>My balance</div>
+        <div class="balance-amount"> $921.48</div>
+      </div>
+      <img src="Assets/images/logo.svg" alt="">
+    </div>
+    <div class="chart-container">
+      <h1>Spending - Last 7 days</h1>
+      <canvas id="myChart" style="width:100%;max-height: 200px;"></canvas>
+      <hr>
+      <div class="small">Total this month</div>
+      <div class="total-container">
+        
+          <div>
+            
+            <div class="big">$478.33</div>
+          </div>
+          <div style="text-align:end ;">
+            <div class="medium">+2.4%</div>
+            <div class="small">from last month</div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="Assets/chart.js/dist/chart.js"></script>
+<script src="Assets/javascript/script.js"></script>
+</body>
+</html>
