@@ -1,7 +1,7 @@
 
 
 const GetData = async () => {
-  const response = await fetch('../Assets/data/data.json')
+  const response = await fetch('Assets/data/data.json')
   const data = await response.json()
   return data
 }
