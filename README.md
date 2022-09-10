@@ -42,7 +42,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ### Continued development
 
-Probably remake the whole thing using some kind of framemwork like vue or React, maybe redo the CSS because i think it a bit messy  
+Probably remake the whole thing using some kind of framemwork like Vue or React, maybe redo the CSS because i think it a bit messy and learn more JavaScript because i did not like the way code works
 
 ### Useful resources
 
