@@ -12,17 +12,17 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+
 
 ## Overview
 
 
 ### Links
 
-- Solution URL: [Repositories](https://github.com/NN-NT-TN/qr-code)
-- Live Site URL: [Live site URL](https://nn-nt-tn.github.io/qr-code/)
+- Solution URL: [Repositories](https://github.com/NN-NT-TN/expenses-chart-component/)
+- Live Site URL: [Live site URL](https://nn-nt-tn.github.io/expenses-chart-component/)
 
 ## My process
 
@@ -30,17 +30,19 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 - HTML5 markup
 - CSS custom properties
+- Java Script 
+- Chart.js
 - Deploy with github pages
 
 ### What I learned
 
-- CSS fonts
-- Image sizing in CSS 
+- How to use Chart.js (set up, customize chart)
+- Javascript fetch 
 - How rescoures are load on github pages
 
 ### Continued development
 
-Not much left to continued develope aside from maybe better optimizing CSS to be cleaner, maybe use something like SCSS or SASS
+Probably remake the whole thing using some kind of framemwork like vue or React, maybe redo the CSS because i think it a bit messy  
 
 ### Useful resources
 
